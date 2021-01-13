@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 100vw;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    height:500px;
+    flex-wrap: wrap;
+}
+.hero-text,.hero-image {
+    width:50%;
+    height:100%
+}
+
+.hero-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:black;
+    color:white;
+    height:100%;
+}
+
+.category{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h1 {
+
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.blurb {
+    font-style: italic;
+}
+
+.hero-image{
+    background:url(img/cover.jpg)
+    no-repeat center center;
+    background-size: cover;
+}
+
+
+
+.articles {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+
+    /* margin: auto; is a fast way to center elements horizontally without using flexbox (though this doesn't work for vertical centering). */
+    margin: auto;
+
+}
+
+.article-image {
+    margin-bottom:15px
+}
+
+img {
+    width:100%;
+}
+
+article {
+    flex: 1;
+    padding: 3%;
+}
+
+.dept{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.con{
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight:800;
+    font-family:Arial, Helvetica, sans-serif;
+  
+}
+
+.she{
+    font-size: 21px;
+    line-height:1.3;
+    font-style: italic;
+    
+}
+
+.author{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.3;
+
+}
+
+.date{
+    color: grey;
+
+}
+    
+.article-text > * {
+    margin-bottom: 15px;
+}   
+
+@media screen and (max-width:768px) {
+    .hero-text,.hero-image {
+        width:100%
+    }
+    .con {
+        font-size: 24px;
+    }
+
+    .she {
+        font-size: 18px;
+    }
+
+}
