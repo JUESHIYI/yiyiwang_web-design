@@ -1,0 +1,45 @@
+body{
+    background:rgb(248, 204, 212);
+    padding: 15%;
+    margin:auto;
+
+
+}
+
+.letter {
+    display: flex;
+    align-self: center;
+    margin: auto;
+    width: 600px;
+    height: 1100px;
+    background: #ffffff;
+    border-radius: 2%;
+    box-shadow: 0 0 30px rgb(214, 151, 162);
+}
+
+.letter-text{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    size: 10px;
+}
+
+.letter-text h1{
+    font-family: kansasnew, serif;
+
+    font-weight: 500;
+    
+    font-style: normal;
+}
+
+p{
+    font-family: kansasnew, serif;
+
+font-weight: 400;
+
+font-style: normal;
+}
+
