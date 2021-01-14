@@ -42,6 +42,7 @@ h1 {
 
 .blurb {
     font-style: italic;
+
 }
 
 .hero-image{
@@ -119,6 +120,10 @@ article {
     .hero-text,.hero-image {
         width:100%
     }
+    .hero-image {
+        visibility: hidden;
+    }
+
     .con {
         font-size: 24px;
     }
