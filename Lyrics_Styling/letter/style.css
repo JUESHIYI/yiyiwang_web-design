@@ -15,6 +15,7 @@ body{
     cursor: pointer;
     margin: auto;
 }
+
     
 .letter-container{
       position: absolute;
@@ -92,4 +93,127 @@ body{
         transition-duration:.5s; 
     }
 
-  
+.notice {
+    font-weight: 200;
+    text-align:center;
+    display:flex;
+    margin:auto;
+    justify-content: center;
+    align-items:flex-end;
+    position: relative;
+    left: 17PX;
+    color: rgb(201, 142, 153);
+
+}
+
+@media screen and (max-width:768px) {
+    .letter {
+        width:100%
+    }
+}
+
+.letter,.notice {
+    animation-name:letter-disappear;
+    animation-duration:10s;
+    animation-timing-function: linear;
+    animation-delay:20s;
+    animation-iteration-count:1;
+    animation-direction: normal;
+    animation-play-state: running;
+
+}
+
+@keyframes letter-disappear{
+    0%{
+      opacity: 1;
+    }
+    2%{
+        display: none;
+        opacity: 0;
+      }
+
+    99%{
+        display: none;
+        opacity: 0;
+      }
+    100%{
+      opacity: 1;
+    }
+  }
+
+
+
+.happy-birthday {
+    animation-name:hb-flash;
+    animation-duration:1s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+
+}
+@keyframes hb-flash{
+    0%, 50%, 100% {
+        opacity: 1;
+     }
+     25%, 75% {
+        opacity: 0;
+     }
+  }
+
+
+
+.mom_photo {
+    animation-name:photo-sway;
+    animation-duration:1s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+    animation-direction: normal;
+    animation-play-state:running;
+}
+
+
+
+@keyframes photo-sway{
+    0%{
+      transform:rotate(10deg);
+    }
+    
+    50%{
+      transform:rotate(-10deg);
+    }
+    100%{
+        transform:rotate(10deg);
+      }
+}
+
+#surprise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation-name: surprise-appear;
+    animation-duration:100s;
+    animation-timing-function: linear;
+    animation-iteration-count:1;
+    animation-direction: normal;
+    animation-play-state:running;
+    
+
+}
+
+@keyframes surprise-appear{
+    0%,20% {
+      display: none;
+      opacity: 0;
+    }
+
+    21%,31% {
+      opacity: 1;
+    }
+
+
+    32%,100% {
+        display: none;
+        opacity: 0;
+      }
+}
+
