@@ -1,0 +1,305 @@
+
+
+body{
+    background:rgb(248, 204, 212);
+    padding: 15%;
+    margin:auto;
+
+
+}
+
+.envelope {
+    display: flex;
+    align-self: center;
+    margin: auto;
+    width: 400px;
+    height: 300px;
+    background: #f7f4f4;
+    border-radius: 3%;
+    box-shadow: 0 0 30px rgb(214, 151, 162);
+
+}
+
+.envelope-cover { 
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-top: 180px solid rgb(255, 255, 255);
+    border-radius: 3%;
+  
+}
+
+.click {
+    display: fixed;
+    margin: auto;
+    width: 15%;
+    height:20%;
+    position: relative;
+    right:230px;
+    top: 10px;
+    
+}
+
+img:hover{
+    transform: rotate(360deg);
+    animation: 3000ms linear 0s normal none infinite running rotate-ever;
+  }
+  
+  @keyframes rotate-ever {
+    0%{
+      transform: rotateZ(0);
+    }
+   100%{
+      transform: rotateZ(360deg);
+    }
+  }
+  
+.evenlope-text-en {
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 30px;
+    font-family: mrs-eaves-xl-serif-narrow, serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+.evenlope-text-ch {
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 10px;
+    font-family: fz-shu-song-gb18030, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 9pt;
+
+}
+
+body{
+  background:rgb(248, 204, 212);
+  padding: 15%;
+  margin:auto;
+}
+
+
+.letter {
+  position: relative;
+  width: 600px;
+  height: 1100px;
+  perspective: 500px;
+  cursor: pointer;
+  margin: auto;
+}
+
+  
+.letter-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition-duration: 1s;
+    margin: auto;
+  }
+  
+.back,.front { 
+  border: 5%;
+  display: flex;
+  align-self: center;
+  margin: auto;
+  width: 600px;
+  height: 1100px;
+  background: #ffffff;
+  border-radius: 2%;
+  box-shadow: 0 0 30px rgb(214, 151, 162);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  backface-visibility: hidden;
+    
+  }
+  
+
+.front {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.front h1{
+  font-family: kansasnew, serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.front p{
+  font-family: kansasnew, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+  
+.back {
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  size: 10px;
+  font-family: fz-shu-song-gb18030,serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 5px;
+  transform: rotateY(180deg);  
+  }
+
+  
+  .back:hover, .letter-container:active {
+      -webkit-transform:rotateY(180deg);
+      transform: rotateY(180deg);
+      -webkit-transition-duration:.5s; 
+      transition-duration:.5s; 
+  }
+
+.notice {
+  font-weight: 200;
+  text-align:center;
+  display:flex;
+  margin:auto;
+  justify-content: center;
+  align-items:flex-end;
+  position: relative;
+  left: 17PX;
+  color: rgb(201, 142, 153);
+
+}
+
+@media screen and (max-width:768px) {
+  .letter {
+      width:100%
+  }
+}
+
+.letter,.notice {
+  animation-name:letter-disappear;
+  animation-duration:10s;
+  animation-timing-function: linear;
+  animation-delay:20s;
+  animation-iteration-count:1;
+  animation-direction: normal;
+  animation-play-state: running;
+
+}
+
+@keyframes letter-disappear{
+  0%{
+    opacity: 1;
+  }
+  2%{
+      display: none;
+      opacity: 0;
+    }
+
+  99%{
+      display: none;
+      opacity: 0;
+    }
+  100%{
+    opacity: 1;
+  }
+}
+
+
+
+.happy-birthday {
+  animation-name:hb-flash;
+  animation-duration:1s;
+  animation-timing-function:linear;
+  animation-iteration-count:infinite;
+  text-align: center;
+
+}
+@keyframes hb-flash{
+  0%, 50%, 100% {
+      opacity: 1;
+   }
+   25%, 75% {
+      opacity: 0;
+   }
+}
+
+
+
+.mom_photo {
+  animation-name:photo-sway;
+  animation-duration:1s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+  animation-direction: normal;
+  animation-play-state:running;
+  text-align: center;
+}
+
+
+
+@keyframes photo-sway{
+  0%{
+    transform:rotate(10deg);
+  }
+  
+  50%{
+    transform:rotate(-10deg);
+  }
+  100%{
+      transform:rotate(10deg);
+    }
+}
+
+#surprise {
+  text-align: center;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  animation-name: surprise-appear;
+  animation-duration:100s;
+  animation-timing-function: linear;
+  animation-iteration-count:1;
+  animation-direction: normal;
+  animation-play-state:running;
+  
+
+}
+
+@keyframes surprise-appear{
+  0%,20% {
+    /* display: none; */
+    opacity: 0;
+  }
+
+  21%,31% {
+    opacity: 1;
+  }
+
+
+  32%,100% {
+      /* display: none; */
+      opacity: 0;
+    }
+}
+
+.mom_photo img, .happy-birthday img {
+  width: 15%;
+  height:20%;
+}
