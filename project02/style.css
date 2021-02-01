@@ -1,0 +1,70 @@
+body {
+    background-color:white;
+
+}
+
+h1{
+    font-family: atrament-web, sans-serif;font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    
+    color: #000000;
+  
+}
+
+nav {
+    font-family: atrament-web, sans-serif;font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    
+    color: #000000;
+
+}
+
+.menu {
+    position: absolute;
+    width: 138px;
+    height: 32px;
+    left: 41px;
+    top: 32px;
+
+}
+
+.yiyiwang {
+    position: absolute;
+    width: 138px;
+    height: 32px;
+    left: 651px;
+    top: 32px;
+
+}
+
+nav{
+    position: absolute;
+    width: 142px;
+    height: 127px;
+    left: 37px;
+    top: 72px;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    nav {
+        display: none;
+    }
+
+    .menu{
+        cursor: pointer;
+    }
+    
+}
+
