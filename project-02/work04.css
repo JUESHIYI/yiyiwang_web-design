@@ -1,0 +1,219 @@
+body {
+    width: 1440px;
+    height: 1800px;
+    
+    background-color:white;
+
+}
+
+h1{
+    font-family: atrament-web, sans-serif;font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    
+    color: #000000;
+  
+}
+
+h2{
+    font-family: atrament-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h3 {
+    font-family: atrament-web, sans-serif;
+    font-weight: 600;
+    font-style: italic; 
+}
+
+p {
+    font-family: serenity,sans-serif;
+    font-weight: 500;
+    font-style: normal;  
+}
+
+
+
+nav {
+    font-family: atrament-web, sans-serif;font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    
+    color: #000000;
+
+}
+
+.menu {
+    position: fixed;
+    width: 138px;
+    height: 32px;
+    left: 41px;
+    top: 32px;
+    cursor: pointer;
+    z-index: 100;
+    
+
+}
+
+.yiyiwang {
+    position: fixed;
+    width: 138px;
+    height: 32px;
+    left: 651px;
+    top: 32px;
+    z-index: 100;
+
+}
+
+nav{
+    position: fixed;
+    width: 142px;
+    height: 127px;
+    left: 37px;
+    top: 72px;
+    z-index: 100;
+
+}
+.page_name{
+    position: fixed;
+    width: 138px;
+    height: 32px;
+    left: 1273px;
+    top: 32px;
+    z-index: 100;
+    
+}
+
+.topimg{
+    position: absolute;
+    width: 1440px;
+    height: 808px;
+    left: 0px;
+    top: 92px;
+    
+    
+    background-image:url(work04/IMG_3801.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.midimg{
+    position: absolute;
+    width: 1070px;
+    height: 468px;
+    left: 205px;
+    top: 973px;
+
+    display: block;
+
+}
+
+
+
+.botimg{
+    position: absolute;
+    width: 647.4px;
+    height: 900px;
+    left: 0px;
+    top: 1800px;
+
+    background-image: url(work04/IMG_1D9B96652DE9-1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+    
+
+.caption{
+    position: absolute;
+    width: 531px;
+    height: 474px;
+    left: 819px;
+    top: 1075px;
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: justify;
+    
+    
+    color:black
+}
+
+.video{
+    position: absolute;
+    width: 672px;
+    height: 474px;
+    left: 90px;
+    top: 1151px;
+    
+}
+
+
+.slideshow-container {
+    position: absolute;
+    width: 373px;
+    height: 539px;
+    left: 869px;
+    top: 1981px;
+
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.mySlides {
+    display: none;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+@media screen and (max-width: 768px) {
+
+    nav {
+        display: none;
+    }
+
+
+    
+}
+

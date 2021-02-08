@@ -1,0 +1,255 @@
+body {
+    width: 1440px;
+    height: 1618px;
+    
+    background-color:white;
+
+}
+
+h1{
+    font-family: atrament-web, sans-serif;font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    
+    color:black;
+  
+}
+
+h2{
+    font-family: atrament-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h3 {
+    font-family: atrament-web, sans-serif;
+    font-weight: 600;
+    font-style: italic; 
+}
+
+p {
+    font-family: serenity,sans-serif;
+    font-weight: 500;
+    font-style: normal;  
+}
+
+
+
+nav {
+    font-family: atrament-web, sans-serif;font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    
+    color:black;
+
+}
+
+.menu {
+    position: fixed;
+    width: 138px;
+    height: 32px;
+    left: 41px;
+    top: 32px;
+    cursor: pointer;
+    z-index: 100;
+    
+
+}
+
+.yiyiwang {
+    position: fixed;
+    width: 138px;
+    height: 32px;
+    left: 651px;
+    top: 32px;
+    z-index: 100;
+
+}
+
+nav{
+    position: fixed;
+    width: 142px;
+    height: 127px;
+    left: 37px;
+    top: 72px;
+    z-index: 100;
+
+}
+.page_name{
+    position: fixed;
+    width: 138px;
+    height: 32px;
+    left: 1273px;
+    top: 32px;
+    z-index: 100;
+    
+}
+
+.filter-container {
+    position: absolute;
+    width: 1083px;
+    height: 78px;
+    left: 179px;
+    top: 220px;
+}
+
+.work {
+    width: 317px;
+    height: 534px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+
+}
+
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+  
+/* Add a light grey background on mouse-over */
+.btn:hover {
+    background-color: #ddd;
+}
+  
+/* Add a dark background to the active button */
+.btn.active {
+    background-color:black;
+    color: white;
+}
+
+
+
+form{
+    position: absolute;
+    left: 1200px;
+    top: 245px;
+
+    transform: translate(-50%,-50%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: white;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #07051a;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+form:hover{
+    width: 200px;
+    cursor: pointer;
+}
+
+form:hover input{
+    display: block;
+}
+
+form:hover .fa{
+    background:white;
+    color:black;
+}
+
+
+
+
+
+
+#work-container{
+    position: absolute;
+    width: 1083px;
+    height: 1012px;
+    left: 179px;
+    top: 302px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    flex-flow:row wrap;
+
+
+
+    
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    
+}
+
+.work-img {
+    width: 317px;
+    height: 415px;
+    overflow: hidden;
+    
+    
+}
+
+.work-text {
+    width: 317px;
+    height: 88px;
+
+    text-align: center;
+    
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    nav {
+        display: none;
+    }
+
+
+    
+}
+

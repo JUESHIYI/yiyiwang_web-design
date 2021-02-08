@@ -1,0 +1,160 @@
+body {
+    width: 1440px;
+    height: 1821px;
+
+    background-color:black;
+    
+
+}
+
+h1{
+    font-family: atrament-web, sans-serif;font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    
+    color:white;
+  
+}
+
+h2{
+    font-family: atrament-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h3 {
+    font-family: atrament-web, sans-serif;
+    font-weight: 600;
+    font-style: italic; 
+}
+
+p {
+    font-family: serenity,sans-serif;
+    font-weight: 500;
+    font-style: normal;  
+}
+
+
+
+nav {
+    font-family: atrament-web, sans-serif;font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    
+    color:white;
+
+}
+
+.menu {
+    position: fixed;
+    width: 138px;
+    height: 32px;
+    left: 41px;
+    top: 32px;
+    cursor: pointer;
+    z-index: 100;
+    
+
+}
+
+.yiyiwang {
+    position: fixed;
+    width: 138px;
+    height: 32px;
+    left: 651px;
+    top: 32px;
+    z-index: 100;
+
+}
+
+nav{
+    position: fixed;
+    width: 142px;
+    height: 127px;
+    left: 37px;
+    top: 72px;
+    z-index: 100;
+
+}
+.page_name{
+    position: fixed;
+    width: 138px;
+    height: 32px;
+    left: 1273px;
+    top: 32px;
+    z-index: 100;
+    
+}
+
+.fixedimg1 {
+    position: fixed;
+    width: 495px;
+    height: 714px;
+    left: 225px;
+    top: 110px;
+    
+    background-image:url(work05/5.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+
+
+}
+
+
+
+.baseimg1 {
+    position: absolute;
+    width: 495px;
+    height: 714px;
+    left: 720px;
+    top: 996px;
+    
+    
+    background-image:url(work05/IMG_1609.JPG);
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+
+    
+}
+
+
+
+
+.caption{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0px;
+    text-align: justify;
+
+    position: absolute;
+    width: 426px;
+    height: 714px;
+    left: 789px;
+    top: 110px;
+    
+    color: white;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    nav {
+        display: none;
+    }
+
+
+    
+}
+

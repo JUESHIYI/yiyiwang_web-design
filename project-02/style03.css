@@ -1,0 +1,133 @@
+body {
+    width: 1440px;
+    height: 1592px;
+    
+    background-color:white;
+    
+
+}
+
+h1{
+    font-family: atrament-web, sans-serif;font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    
+    color:black;
+  
+}
+
+h2{
+    font-family: atrament-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h3 {
+    font-family: atrament-web, sans-serif;
+    font-weight: 600;
+    font-style: italic; 
+}
+
+p {
+    font-family: serenity,sans-serif;
+    font-weight: 500;
+    font-style: normal;  
+}
+
+
+
+nav {
+    font-family: atrament-web, sans-serif;font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    z-index: 100;
+    
+    color:black;
+
+}
+
+.menu {
+    position: fixed;
+    width: 138px;
+    height: 32px;
+    left: 41px;
+    top: 32px;
+    cursor: pointer;
+    z-index: 100;
+    
+
+}
+
+.yiyiwang {
+    position: fixed;
+    width: 138px;
+    height: 32px;
+    left: 651px;
+    top: 32px;
+    z-index: 100;
+
+}
+
+nav{
+    position: fixed;
+    width: 142px;
+    height: 127px;
+    left: 37px;
+    top: 72px;
+
+}
+.page_name{
+    position: fixed;
+    width: 138px;
+    height: 32px;
+    left: 1273px;
+    top: 32px;
+    z-index: 100;
+    
+}
+
+.video{
+    position:absolute;
+    width: 840px;
+    height: 472.5px;
+    left: 300px;
+    top: 194px;
+    margin: auto;
+
+
+
+}
+
+.image{
+    position:absolute;
+    width: 1477px;
+    height: 811px;
+    left: -21px;
+    top: 796px;
+
+        
+    background-image:url(work03/frames_outline.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+
+}
+
+@media screen and (max-width: 768px) {
+
+    nav {
+        display: none;
+    }
+
+
+    
+}
+

@@ -1,0 +1,177 @@
+body {
+    width: 1440px;
+    height: 1821px;
+
+    background-color:black;
+    
+
+}
+
+h1{
+    font-family: atrament-web, sans-serif;font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    
+    color:white;
+  
+}
+
+h2{
+    font-family: atrament-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h3 {
+    font-family: atrament-web, sans-serif;
+    font-weight: 600;
+    font-style: italic; 
+}
+
+p {
+    font-family: serenity,sans-serif;
+    font-weight: 500;
+    font-style: normal;  
+}
+
+
+
+nav {
+    font-family: atrament-web, sans-serif;font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    
+    color:white;
+
+}
+
+.menu {
+    position: fixed;
+    width: 138px;
+    height: 32px;
+    left: 41px;
+    top: 32px;
+    cursor: pointer;
+    
+
+}
+
+.yiyiwang {
+    position: fixed;
+    width: 138px;
+    height: 32px;
+    left: 651px;
+    top: 32px;
+
+}
+
+nav{
+    position: fixed;
+    width: 142px;
+    height: 127px;
+    left: 37px;
+    top: 72px;
+
+}
+.page_name{
+    position: fixed;
+    width: 138px;
+    height: 32px;
+    left: 1273px;
+    top: 32px;
+    
+}
+
+.fixedimg1 {
+    position: fixed;
+    width: 671px;
+    height: 542px;
+    left: 16px;
+    top: 151px;
+    
+    background-image:url(work02/IMG_5444.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    z-index: -1;
+
+}
+
+.baseimg1 {
+    position: absolute;
+    width: 890px;
+    height: 762px;
+    left: 582px;
+    top: 92px;
+    
+    background-image:url(work02/IMG_8254.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    z-index:-1
+    
+}
+
+.baseimg2 {
+    position: absolute;
+    width: 916px;
+    height: 672px;
+    left: 556px;
+    top: 100px;
+
+    background-image:url(work02/pieces.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    z-index:-1
+}
+
+
+.fixedimg2 {
+    position: fixed;
+    width: 991px;
+    height: 526px;
+    left: 541px;
+    top: 450px;
+
+
+    background-image:url(work02/hand.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.caption{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    text-align: justify;
+
+    position: absolute;
+    width: 628px;
+    height: 364px;
+    left: 682px;
+    top: 1095px;
+    color: white;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    nav {
+        display: none;
+    }
+
+
+    
+}
+

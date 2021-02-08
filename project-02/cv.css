@@ -1,0 +1,146 @@
+body {
+    width: 1440px;
+    height: 900px;
+    
+    background-color:rgba(238, 222, 222, 1);
+
+}
+
+h1{
+    font-family: atrament-web, sans-serif;font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    
+    color:black;
+  
+}
+
+h2{
+    font-family: atrament-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h3 {
+    font-family: atrament-web, sans-serif;
+    font-weight: 600;
+    font-style: italic; 
+}
+
+p {
+    font-family: serenity,sans-serif;
+    font-weight: 500;
+    font-style: normal;  
+}
+
+
+
+nav {
+    font-family: atrament-web, sans-serif;font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    
+    color:black;
+
+}
+
+.menu {
+    position: fixed;
+    width: 138px;
+    height: 32px;
+    left: 41px;
+    top: 32px;
+    cursor: pointer;
+    z-index: 100;
+    
+
+}
+
+.yiyiwang {
+    position: fixed;
+    width: 138px;
+    height: 32px;
+    left: 651px;
+    top: 32px;
+    z-index: 100;
+
+}
+
+nav{
+    position: fixed;
+    width: 142px;
+    height: 127px;
+    left: 37px;
+    top: 72px;
+    z-index: 100;
+
+}
+.page_name{
+    position: fixed;
+    width: 138px;
+    height: 32px;
+    left: 1273px;
+    top: 32px;
+    z-index: 100;
+    
+}
+
+.cvphoto{
+    position: absolute;
+    width: 410px;
+    height: 525px;
+    left: 311px;
+    top: 188px;
+
+    background-image: url(home+cv/IMG_0610.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+    
+}
+
+.cv-box {
+    position: absolute;
+    width: 849px;
+    height: 525px;
+    left: 311px;
+    top: 188px;
+
+    background-color: white;
+    box-shadow: 0 0 30px rgb(206, 190, 190);
+
+}
+.cv-text {
+    position: absolute;
+    width: 317px;
+    height: 417px;
+    left: 789px;
+    top: 246px;
+    
+
+}
+
+
+img {
+    width:20px
+}
+
+@media screen and (max-width: 768px) {
+
+    nav {
+        display: none;
+    }
+
+
+    
+}
+

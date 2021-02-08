@@ -1,0 +1,164 @@
+body {
+    width: 1440px;
+    height: 2495px;
+    
+    background-color:white;
+
+}
+
+h1{
+    font-family: atrament-web, sans-serif;font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    
+    color: #000000;
+  
+}
+
+h2{
+    font-family: atrament-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h3 {
+    font-family: atrament-web, sans-serif;
+    font-weight: 600;
+    font-style: italic; 
+}
+
+p {
+    font-family: serenity,sans-serif;
+    font-weight: 500;
+    font-style: normal;  
+}
+
+
+
+nav {
+    font-family: atrament-web, sans-serif;font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    z-index: 100;
+    
+    color: #000000;
+
+}
+
+.menu {
+    position: fixed;
+    width: 138px;
+    height: 32px;
+    left: 41px;
+    top: 32px;
+    cursor: pointer;
+    z-index: 100;
+    
+
+}
+
+.yiyiwang {
+    position: fixed;
+    width: 138px;
+    height: 32px;
+    left: 651px;
+    top: 32px;
+    z-index: 100;
+
+}
+
+nav{
+    position: fixed;
+    width: 142px;
+    height: 127px;
+    left: 37px;
+    top: 72px;
+    z-index: 100;
+
+}
+.page_name{
+    position: fixed;
+    width: 138px;
+    height: 32px;
+    left: 1273px;
+    top: 32px;
+    z-index: 100;
+}
+
+.topimg{
+    position: absolute;
+    width: 968px;
+    height: 643px;
+    left: 236px;
+    top: 129px;
+    
+    background-image:url(work01/IMG_5806.JPG);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.midimg{
+    position: absolute;
+    width: 1030px;
+    height: 468px;
+    left: 205px;
+    top: 973px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.midimg img{
+    width: 327px;
+    height: 468px;
+    margin: auto;
+}
+
+
+.botimg{
+    position: absolute;
+    width: 1440px;
+    height: 853px;
+    left: 0px;
+    top: 1642px;
+
+    background-image:url(work01/IMG_5805.JPG);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.caption{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    text-align: justify;
+    
+    position: absolute;
+    width: 595px;
+    height: 364px;
+    left: 109px;
+    top: 1714px;
+    color: aliceblue;
+}
+
+@media screen and (max-width: 768px) {
+
+    nav {
+        display: none;
+    }
+
+
+    
+}
+

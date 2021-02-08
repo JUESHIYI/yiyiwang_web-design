@@ -1,0 +1,184 @@
+body {
+    width: 1440px;
+    height: 1800px;
+    
+    background-color:white;
+
+}
+
+h1{
+    font-family: atrament-web, sans-serif;font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    
+    color:white;
+  
+}
+
+li {
+    color: white;
+}
+
+h2{
+    font-family: atrament-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h3 {
+    font-family: atrament-web, sans-serif;
+    font-weight: 600;
+    font-style: italic; 
+}
+
+p {
+    font-family: serenity,sans-serif;
+    font-weight: 500;
+    font-style: normal;  
+}
+
+
+
+nav {
+    font-family: atrament-web, sans-serif;font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    z-index: 100;
+    
+    color:white;
+
+}
+
+.menu {
+    position: fixed;
+    width: 138px;
+    height: 32px;
+    left: 41px;
+    top: 32px;
+    cursor: pointer;
+    z-index: 100;
+    
+
+}
+
+.yiyiwang {
+    position: fixed;
+    width: 138px;
+    height: 32px;
+    left: 651px;
+    top: 32px;
+    z-index: 100;
+
+}
+
+nav{
+    position: fixed;
+    width: 142px;
+    height: 127px;
+    left: 37px;
+    top: 72px;
+    z-index: 100;
+
+}
+.page_name{
+    position: fixed;
+    width: 138px;
+    height: 32px;
+    left: 1273px;
+    top: 32px;
+    z-index: 100;
+    
+}
+
+.topimg{
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+    
+    
+    background-image:url(work06/inflation2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.midimg{
+    position: absolute;
+    width: 699px;
+    height: 516px;
+    left: 0px;
+    top: 1092px;    
+
+    background-image:url(work06/inflation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+.caption{
+    position: absolute;
+    width: 531px;
+    height: 516px;
+    left: 811px;
+    top: 1092px;
+    
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: justify;
+    
+    
+    color:black
+}
+
+
+
+
+.botimg{
+    position: absolute;
+    width: 1031px;
+    height: 864px;
+    left: 29px;
+    top: 1819px;
+    
+    background-image: url(work06/IMG_8273.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.img-slide{
+    position: absolute;
+    width: 470px;
+    height: 706px;
+    left: 922px;
+    top: 1913px;
+    
+    background-image: url(work06/IMG_8275.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    nav {
+        display: none;
+    }
+}

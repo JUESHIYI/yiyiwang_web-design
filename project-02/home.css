@@ -1,0 +1,208 @@
+body {
+    width: 1440px;
+    height: 900px;
+    
+    background-color:white;
+
+}
+
+h1{
+    font-family: atrament-web, sans-serif;font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    
+    color:black;
+  
+}
+
+h2{
+    font-family: atrament-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h3 {
+    font-family: atrament-web, sans-serif;
+    font-weight: 600;
+    font-style: italic; 
+}
+
+
+p {
+    font-family: serenity,sans-serif;
+    font-weight: 500;
+    font-style: normal;  
+}
+
+
+
+nav {
+    font-family: atrament-web, sans-serif;font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    
+    color:black;
+
+}
+
+.menu {
+    position: fixed;
+    width: 138px;
+    height: 32px;
+    left: 41px;
+    top: 32px;
+    cursor: pointer;
+    
+
+}
+
+.yiyiwang {
+    position: fixed;
+    width: 138px;
+    height: 32px;
+    left: 651px;
+    top: 32px;
+
+}
+
+nav{
+    position: fixed;
+    width: 142px;
+    height: 127px;
+    left: 37px;
+    top: 72px;
+
+}
+.page_name{
+    position: fixed;
+    width: 138px;
+    height: 32px;
+    left: 1273px;
+    top: 32px;
+    
+}
+
+
+.latest-work {
+    display: block;
+    position: absolute;
+    width: 538px;
+    height: 538px;
+    left: 451px;
+    top: 218px;    
+    
+    border-radius: 50%;
+    
+    margin: auto;
+    background-image:url(home+CV/redpaint.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.text-rotation-inner {
+
+    position: absolute;
+    width: 538px;
+    height: 538px;
+    left: 451px;
+    top: 218px;
+    
+  
+
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+
+
+
+    animation: rotate-inner 15s infinite linear;
+    transition-delay: 5s;
+    animation-delay: 1s;
+
+}     
+
+.text-rotation-inner h1 {
+    color: white;
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+.text-rotation-outter {
+    position: absolute;
+    width: 646px;
+    height: 646px;
+    left: 397px;
+    top: 165px;   
+
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+
+
+
+    animation: rotate-outter 15s infinite linear;
+    transform-origin:center;
+    animation-delay: 1s;
+    
+}
+
+.text-rotation-outter h1{
+    font-size: 20pt;
+
+}
+
+.link-to-latest-work {
+
+    position: absolute;
+    width: 538px;
+    height: 538px;
+    left: 451px;
+    top: 218px;
+    z-index: 99;
+    cursor: pointer;
+  
+
+    border-radius: 50%;
+
+}
+
+
+
+@keyframes rotate-outter {
+    0% { transform: rotate-r(0deg);}
+    100% { transform: rotate(360deg);}
+    } 
+ 
+@keyframes rotate-inner {
+    0% { transform: rotate(0deg);}
+    100% { transform: rotate(-360deg);}
+} 
+  
+
+
+@media screen and (max-width: 768px) {
+
+    nav {
+        display: none;
+    }
+
+
+    
+}
+
