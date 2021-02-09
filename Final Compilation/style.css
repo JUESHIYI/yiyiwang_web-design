@@ -1,5 +1,6 @@
+
 body {
-    background-color:white;
+    background-color:rgb(255, 255, 255);
 
 }
 
@@ -88,10 +89,10 @@ nav{
 
 .filter-container {
     position: absolute;
-    width: 1083px;
-    height: 78px;
-    left: 179px;
-    top: 220px;
+    width: 80%;
+    height: 20%;
+    left: 10%;
+    top: 17%;
     
 }
 
@@ -133,18 +134,15 @@ nav{
 
 #work-container{
     position: absolute;
-    width: 1083px;
-    height: 1012px;
-    left: 179px;
-    top: 302px;
+    width: 80%;
+    height: 90%;
+    left: 10%;
+    top: 30%;
 
     display: flex;
     justify-content: space-between;
     align-items:flex-start;
     flex-flow:row wrap;
-
-
-
     
 }
 
@@ -172,16 +170,4 @@ img {
     
 }
 
-
-
-
-@media screen and (max-width: 768px) {
-
-    nav {
-        display: none;
-    }
-
-
-    
-}
 

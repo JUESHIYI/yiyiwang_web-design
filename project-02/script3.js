@@ -5,6 +5,7 @@ $("document").ready(function () {
         $("nav").toggle();
     });
 
+    /*filter buttons*/
   filterSelection("all")
       function filterSelection(c) {
         var x, i;
@@ -54,9 +55,13 @@ $("document").ready(function () {
       var current = document.getElementsByClassName("active");
       current[0].className = current[0].className.replace(" active", "");
       this.className += " active";
+
+      //clear the searchbox when someone clicks on a button so whatever is in it doesn't interfere with the buttons hiding and showing things
+      searchInput.value = '';
       });
     } 
 
+    /*searching box*/
   let searchInput = document.querySelector('input');
   searchInput.addEventListener('keyup', search);
  
@@ -71,7 +76,10 @@ $("document").ready(function () {
       titles.forEach((title) => {
          tit = title.textContent.toLowerCase();
      
-         tit.includes(searchTerm) ? title.style.display = 'block' : title.style.display = 'none';
+        //  tit.includes(searchTerm) ? title.style.display = 'block' : title.style.display = 'none';
+
+        //your filter buttons were showing/hiding things by adding and removing the class "show", rather than using display: block/display: none. So I've updated the search boolean to show and hide with classes as well. This way, your button functions that add/remove class "show" will still work for any classes added with the searchbar.
+         tit.includes(searchTerm) ? title.classList.add('show') : title.classList.remove("show");
         });
     }
   
