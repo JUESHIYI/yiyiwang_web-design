@@ -179,6 +179,58 @@ nav{
         
     }
 
+    .fixedimg1 {
+        margin: 0;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        width: 80%;
+        height: 70%;
+        transform: translate(-50%,-50%);
+        background-position: center;
+        background-size: contain;
+
+    }
+
+    .caption {
+
+        margin: 0;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        width: 70%;
+        height: 50%;
+        transform: translate(-50%);
+        text-align: justify
+
+    }
+
+    .caption p {
+        font-size: 10%;
+        line-height: 12px;
+    }
+
+    .caption h3 {
+        line-height:10px;
+    }
+
+    .caption h2 {
+        line-height:10px;
+    }
+
+    .baseimg1 {
+        margin: 0;
+        position: absolute;
+        top: 170%;
+        left: 50%;
+        width: 80%;
+        height: 70%;
+        transform: translate(-50%,-50%);
+        background-position: center;
+        background-size: contain;
+
+    }
+
 
     
 }
