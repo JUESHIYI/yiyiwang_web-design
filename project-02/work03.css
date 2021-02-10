@@ -1,8 +1,8 @@
 body {
     width: 1440px;
-    height: 1821px;
-
-    background-color:black;
+    height: 1592px;
+    
+    background-color:white;
     
 
 }
@@ -16,7 +16,7 @@ h1{
     align-items: center;
     letter-spacing: 0.15em;
     
-    color:white;
+    color:black;
   
 }
 
@@ -48,8 +48,9 @@ nav {
     display: flex;
     align-items: center;
     letter-spacing: 0.15em;
+    z-index: 100;
     
-    color:white;
+    color:black;
 
 }
 
@@ -60,6 +61,7 @@ nav {
     left: 41px;
     top: 32px;
     cursor: pointer;
+    z-index: 100;
     
 
 }
@@ -70,6 +72,7 @@ nav {
     height: 32px;
     left: 651px;
     top: 32px;
+    z-index: 100;
 
 }
 
@@ -87,91 +90,67 @@ nav{
     height: 32px;
     left: 1273px;
     top: 32px;
+    z-index: 100;
     
 }
 
-.fixedimg1 {
-    position: fixed;
-    width: 671px;
-    height: 542px;
-    left: 16px;
-    top: 151px;
-    
-    background-image:url(work02/IMG_5444.png);
+.video{
+    position:absolute;
+    width: 840px;
+    height: 472.5px;
+    left: 300px;
+    top: 194px;
+    margin: auto;
+
+
+
+}
+
+.image{
+    position:absolute;
+    width: 1477px;
+    height: 811px;
+    left: -21px;
+    top: 796px;
+
+        
+    background-image:url(work03/frames_outline.png);
     background-repeat: no-repeat;
     background-size: contain;
-
-    z-index: -1;
-
-}
-
-.baseimg1 {
-    position: absolute;
-    width: 890px;
-    height: 762px;
-    left: 582px;
-    top: 92px;
     
-    background-image:url(work02/IMG_8254.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-
-    z-index:-1
-    
-}
-
-.baseimg2 {
-    position: absolute;
-    width: 916px;
-    height: 672px;
-    left: 556px;
-    top: 100px;
-
-    background-image:url(work02/pieces.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    z-index:-1
-}
-
-
-.fixedimg2 {
-    position: fixed;
-    width: 991px;
-    height: 526px;
-    left: 541px;
-    top: 450px;
-
-
-    background-image:url(work02/hand.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
-.caption{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    text-align: justify;
-
-    position: absolute;
-    width: 628px;
-    height: 364px;
-    left: 682px;
-    top: 1095px;
-    color: white;
 
 }
 
 @media screen and (max-width: 768px) {
 
-    nav {
-        display: none;
+    body {
+        width:inherit;
+        height:inherit;
+    
     }
 
-
+    .menu {
+        left: 10%;
+        top: 5%;    
+    }
+    
+    .yiyiwang {
+        left: 40%;
+        top: 5%;
+    
+    }
+    
+    nav{
+        display: none;
+        left: 10%;
+        top: 10%;
+    
+    }
+    .page_name{
+        left: 70%;
+        top: 5%;
+        
+    }
     
 }
 

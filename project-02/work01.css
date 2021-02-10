@@ -1,9 +1,8 @@
 body {
     width: 1440px;
-    height: 1592px;
+    height: 2495px;
     
     background-color:white;
-    
 
 }
 
@@ -16,7 +15,7 @@ h1{
     align-items: center;
     letter-spacing: 0.15em;
     
-    color:black;
+    color: #000000;
   
 }
 
@@ -50,7 +49,7 @@ nav {
     letter-spacing: 0.15em;
     z-index: 100;
     
-    color:black;
+    color: #000000;
 
 }
 
@@ -82,6 +81,7 @@ nav{
     height: 127px;
     left: 37px;
     top: 72px;
+    z-index: 100;
 
 }
 .page_name{
@@ -91,43 +91,96 @@ nav{
     left: 1273px;
     top: 32px;
     z-index: 100;
+}
+
+.topimg{
+    position: absolute;
+    width: 968px;
+    height: 643px;
+    left: 236px;
+    top: 129px;
     
-}
-
-.video{
-    position:absolute;
-    width: 840px;
-    height: 472.5px;
-    left: 300px;
-    top: 194px;
-    margin: auto;
-
-
-
-}
-
-.image{
-    position:absolute;
-    width: 1477px;
-    height: 811px;
-    left: -21px;
-    top: 796px;
-
-        
-    background-image:url(work03/frames_outline.png);
+    background-image:url(work01/IMG_5806.JPG);
     background-repeat: no-repeat;
     background-size: contain;
-    
 
+}
+
+.midimg{
+    position: absolute;
+    width: 1030px;
+    height: 468px;
+    left: 205px;
+    top: 973px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.midimg img{
+    width: 327px;
+    height: 468px;
+    margin: auto;
+}
+
+
+.botimg{
+    position: absolute;
+    width: 1440px;
+    height: 853px;
+    left: 0px;
+    top: 1642px;
+
+    background-image:url(work01/IMG_5805.JPG);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.caption{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    text-align: justify;
+    
+    position: absolute;
+    width: 595px;
+    height: 364px;
+    left: 109px;
+    top: 1714px;
+    color: aliceblue;
 }
 
 @media screen and (max-width: 768px) {
-
-    nav {
-        display: none;
+    body {
+        width:inherit;
+        height:inherit;
+    
     }
 
-
+    .menu {
+        left: 10%;
+        top: 5%;    
+    }
+    
+    .yiyiwang {
+        left: 40%;
+        top: 5%;
+    
+    }
+    
+    nav{
+        display: none;
+        left: 10%;
+        top: 10%;
+    
+    }
+    .page_name{
+        left: 70%;
+        top: 5%;
+        
+    }
     
 }
 

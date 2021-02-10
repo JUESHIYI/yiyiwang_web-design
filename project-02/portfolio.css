@@ -248,9 +248,63 @@ img {
 
 @media screen and (max-width: 768px) {
 
-    nav {
-        display: none;
+    body {
+        width:inherit;
+        height:inherit;
+    
     }
+
+    .menu {
+        left: 10%;
+        top: 5%;    
+    }
+    
+    .yiyiwang {
+        left: 40%;
+        top: 5%;
+    
+    }
+    
+    nav{
+        display: none;
+        left: 10%;
+        top: 10%;
+    
+    }
+    .page_name{
+        left: 70%;
+        top: 5%;
+        
+    }
+
+    form{
+        margin: 0;
+        position: absolute;
+        top: 28%;
+        left: 70%;
+        transform: translate(10%, -50%);
+    }
+
+    .filter-container{
+        margin: 0;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        width: 50%;
+        transform: translate(-63%, -50%);
+    }
+
+    #work-container {
+        justify-content: center;
+        margin: 0;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        height: 50%;
+        width: 50%;
+        transform: translate(-50%, -50%);
+    }
+
 
 
     

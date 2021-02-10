@@ -208,8 +208,75 @@ nav{
 
 @media screen and (max-width: 768px) {
 
-    nav {
+
+    body {
+        width:inherit;
+        height:inherit;
+    }
+
+    .menu {
+        left: 10%;
+        top: 5%;    
+    }
+    
+    .yiyiwang {
+        left: 40%;
+        top: 5%;
+    
+    }
+    
+    nav{
         display: none;
+        left: 10%;
+        top: 10%;
+    
+    }
+    .page_name{
+        left: 70%;
+        top: 5%;
+        
+    }
+
+    .contact-box {
+
+        margin: 0;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .qr-codes{
+        margin: 0;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+    .ins-code{
+        margin: 0;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+    .snap-code{
+        margin: 0;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+    .wechat-code{
+        margin: 0;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
     }
 
 

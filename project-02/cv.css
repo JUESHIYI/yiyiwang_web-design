@@ -11,8 +11,6 @@ h1{
     font-style: normal;
     font-size: 20px;
     line-height: 22px;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.15em;
     
     color:black;
@@ -136,9 +134,80 @@ img {
 
 @media screen and (max-width: 768px) {
 
-    nav {
+    body {
+        width:inherit;
+        height:inherit;
+
+    
+    }
+
+    .menu {
+        left: 10%;
+        top: 5%;    
+    }
+    
+    .yiyiwang {
+        left: 40%;
+        top: 5%;
+    
+    }
+    
+    nav{
+        display: none;
+        left: 10%;
+        top: 10%;
+    
+    }
+    .page_name{
+        left: 80%;
+        top: 5%;
+        
+    }
+
+    .cv-box{
+        margin: 0;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        height: 70%;
+        width: 70%;
+        transform: translate(-50%, -50%);
+    }
+
+    .cvphoto{
         display: none;
     }
+
+    .photo-mobile {
+        width: 100%;
+        height: 40%;
+        background-image: url(home+CV/IMG_6130.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        background-position-y:70%;
+
+
+    }
+
+    .text-mobile{
+        width: 100%;
+        height: 60%;
+        text-align: center;
+
+    }
+
+    .text-mobile p {
+        font-size: 10%;
+        line-height: 12px;
+
+
+    }
+
+
+
+    
+
 
 
     

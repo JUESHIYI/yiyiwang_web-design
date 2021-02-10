@@ -38,12 +38,13 @@ $("document").ready(function () {
 
   });
 
+
+
+});
+
+$(window).on('load', function() {
   $("#latestwork-text01").arctext({ radius: 538, dir: -1 });
   $("#latestwork-text02").arctext({ radius: 538 });
-
-
-
-
 });
 
 
